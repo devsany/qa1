@@ -106,6 +106,24 @@
   -webkit-box-align: center;
   align-items: center;
 }
+.conversation-flow1 {
+  /* width: 200px; */
+  /* border: 1px solid #ccc; */
+  font-size: 14px;
+  color: rgb(49, 51, 63);
+  display: flex;
+  padding-left: 5px;
+  padding-right: 0%;
+  justify-content: space-between;
+  visibility: visible;
+  margin-bottom: 0.25rem;
+  height: auto;
+  min-height: 1.5rem;
+  vertical-align: middle;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
 .hover {
   display: absolute;
 }

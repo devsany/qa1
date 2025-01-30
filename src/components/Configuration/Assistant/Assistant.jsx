@@ -39,7 +39,7 @@ const Assistant = () => {
   };
   return (
     <div>
-      <div className="content">
+      <div className="">
         <div className="header-box" onClick={handleBoxClick}>
           <div className="header-1">Assistant type configuration</div>
           <div>

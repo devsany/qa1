@@ -4,6 +4,8 @@ import ConfiguratinoFlow from "./ConfiguratinoFlow/ConfiguratinoFlow";
 import Orchestrator from "./Orchestrator/Orchestrator ";
 import Assistant from "./Assistant/Assistant";
 import Prompt from "./Prompt/Prompt";
+import Fewshotexample from "./Fewshotexample/Fewshotexample";
+import Table from "./Table/Table";
 
 const Configuration = () => {
   const [ConfigurationFlowDropDownData, setConfigurationFlowDropDownData] =
@@ -51,6 +53,12 @@ const Configuration = () => {
           header="Prompt configuration"
           questionIcon="Whether to use a similar prompt format to Azure OpenAI On Your Data, including separate system and user messages, and a few-shot example."
         />
+      </div>
+      <div className="configuration_container">
+        <Fewshotexample />
+      </div>
+      <div className="configuration_container">
+        <Table />
       </div>
     </div>
   );
