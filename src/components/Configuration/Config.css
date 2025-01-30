@@ -1,0 +1,182 @@
+/* Container */
+.dropdown-container {
+  position: relative;
+  width: 200px;
+}
+
+/* Input box */
+.input-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ddd;
+  background-color: white;
+}
+
+/* Input styling */
+.input-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Downward Arrow */
+.arrow {
+  margin-right: 5px;
+  /* margin-left: 10px; */
+  font-size: 22px; /* Larger arrow */
+  color: #555;
+}
+
+/* Dropdown Options */
+.dropdown-options {
+  position: absolute;
+  left: 0px;
+  top: 40px; /* Adjusted position */
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+/* Search bar inside dropdown */
+.search-bar {
+  width: 100%;
+  padding-left: 8px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Displaying filtered options in a row */
+.options-list {
+  display: flex;
+  flex-direction: column; /* Stack the options vertically */
+  padding: 10px;
+}
+
+/* Option item styling */
+.option-item {
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.option-item:hover {
+  background-color: #f0f0f0;
+}
+
+.box-header:hover {
+  color: red;
+  cursor: pointer;
+}
+.content {
+  /* padding: 40px; */
+  padding-top: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  /* border: 1px solid #ccc; */
+}
+.conversation-flow {
+  width: 200px;
+  /* border: 1px solid #ccc; */
+  font-size: 14px;
+  color: rgb(49, 51, 63);
+  display: flex;
+  padding-left: 5px;
+  padding-right: 0%;
+  justify-content: space-between;
+  visibility: visible;
+  margin-bottom: 0.25rem;
+  height: auto;
+  min-height: 1.5rem;
+  vertical-align: middle;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.hover {
+  display: absolute;
+}
+
+.description {
+  margin-top: -70px;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 540px;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+}
+.header-box {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.header-box:hover {
+  color: red;
+}
+
+.configuration_container {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.conversation-flow-item {
+  display: flex;
+}
+
+.conversation-flow-main {
+  /* width: 200px; */
+  /* border: 1px solid #ccc; */
+  font-size: 14px;
+  color: rgb(49, 51, 63);
+  display: flex;
+  padding-left: 5px;
+  padding-right: 0%;
+  /* justify-content: space-between; */
+  visibility: visible;
+  margin-bottom: 0.25rem;
+  height: auto;
+  min-height: 1.5rem;
+  vertical-align: middle;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.conversation-flow-item-text {
+  margin-left: 5px;
+}
+.answer_description {
+  margin-top: -100px;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  width: 800px;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+}
+.conversation-flow-answer-main {
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.textarea {
+  width: 800px;
+  height: 400px;
+}
