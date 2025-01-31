@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Config.css";
 import ConfiguratinoFlow from "./ConfiguratinoFlow/ConfiguratinoFlow";
-import Orchestrator from "./Orchestrator/Orchestrator ";
-import Assistant from "./Assistant/Assistant";
 import Prompt from "./Prompt/Prompt";
 import Fewshotexample from "./Fewshotexample/Fewshotexample";
 import Table from "./Table/Table";
@@ -55,7 +53,7 @@ const Configuration = () => {
         />
       </div>
       <div className="configuration_container">
-        <Fewshotexample />
+        <Fewshotexample header="Assistant type configuration" />
       </div>
       <div className="configuration_container">
         <Table />

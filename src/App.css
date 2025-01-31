@@ -7,4 +7,8 @@
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 6rem;
+  margin-left: 320px;
+}
+.sidebar {
+  position: fixed;
 }

@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./MainNavLink.css";
 
 const MainNavLink = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
-    <div className="main-nav-link">
+    <div className={`main-nav-link ${isSidebarOpen ? "open" : "closed"}`}>
+      <button className="toggle-btn" onClick={toggleSidebar}>
+        {isSidebarOpen ? "<" : ">"}
+      </button>
       <nav className="sidebar">
         <ul>
           <li>
