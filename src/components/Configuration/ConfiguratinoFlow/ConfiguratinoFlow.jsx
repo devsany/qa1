@@ -26,7 +26,7 @@ const ConfiguratinoFlow = (props) => {
   }, []);
 
   // Filter options based on search query
-  const filteredOptions = options.filter((option) =>
+  const filteredOptions = options?.filter((option) =>
     option.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
@@ -88,8 +88,8 @@ const ConfiguratinoFlow = (props) => {
               <div className="dropdown-options">
                 {/* Displaying filtered options using .map */}
                 <div className="options-list">
-                  {props?.options &&
-                    props?.options.map((option, index) => (
+                  {filteredOptions &&
+                    filteredOptions.map((option, index) => (
                       <div
                         key={index}
                         className="option-item"

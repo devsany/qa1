@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import First from "./first/First";
 
 const IngestData = () => {
   return (
-    <div>IngestData</div>
-  )
-}
+    <div>
+      {/* Upper component */}
+      <First />
+    </div>
+  );
+};
 
-export default IngestData
+export default IngestData;
