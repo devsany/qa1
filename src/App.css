@@ -12,3 +12,12 @@
 .sidebar {
   position: fixed;
 }
+
+.wrapper_header {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 15px;
+}

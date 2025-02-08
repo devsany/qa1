@@ -6,7 +6,7 @@ const Wrapper = ({ children, content_header }, props) => {
     setToggleBox1(!toggleBox1);
   };
   return (
-    <div>
+    <div className="wrapper_header">
       <div className="header-box" onClick={handleBoxClick}>
         <div className="header-1">{content_header}</div>
         <div>
